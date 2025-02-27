@@ -15,19 +15,23 @@ export default function Home() {
         <Hero />
         <Explore />
         <About />
-        <div className="w-screen py-16 text-center">
+        <div className="w-full py-16 text-center">
+          <h2 className="text-3xl font-bold mb-3 pb-16 rounded-full">
+            Anggota Kelompok
+          </h2>
           <div className="bg-[var(--secondary)] rounded-xl p-6 mb-10">
-            <h2 className="text-3xl font-semibold mb-3">Anggota Kelompok</h2>
             <Squad />
           </div>
+          <h2 className="text-3xl font-bold mb-3 rounded-full">
+            Resep Populer
+          </h2>
           <div className="bg-[var(--secondary)] rounded-xl p-6">
-            <h2 className="text-3xl font-semibold mb-3">Resep Populer</h2>
             <StarRecipe />
           </div>
         </div>
         <Recipe />
+        <Footer />
       </main>
-      <Footer />
     </>
   )
 }

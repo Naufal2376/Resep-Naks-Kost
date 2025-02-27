@@ -11,7 +11,7 @@ const squads = [
     width: 200,
     height: 300,
     translateX: 10, // Geser ke kiri (-) atau kanan (+)
-    translateY: -68, // Geser ke atas (-) atau bawah (+)
+    translateY: -21, // Geser ke atas (-) atau bawah (+)
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ const squads = [
     width: 220,
     height: 300,
     translateX: 10,
-    translateY: -70,
+    translateY: -23,
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const squads = [
     width: 200,
     height: 300,
     translateX: 0,
-    translateY: -70,
+    translateY: -23,
   },
   {
     id: 4,
@@ -44,7 +44,7 @@ const squads = [
     width: 260,
     height: 300,
     translateX: 0,
-    translateY: -70,
+    translateY: -23,
   },
 ]
 
@@ -79,7 +79,7 @@ const SquadCard = ({
     >
       {/* Background */}
       <div
-        className="w-full h-40 bg-cover bg-center"
+        className="w-full h-52 bg-cover bg-center rounded-t-md"
         style={{
           backgroundImage: "url('/asset/bg-rabbit.jpeg')",
           backgroundSize: "cover",
