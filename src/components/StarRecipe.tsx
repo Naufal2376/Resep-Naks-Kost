@@ -42,7 +42,7 @@ const RecipeCard = ({
   return (
     <figure
       className={cn(
-        "relative w-80 cursor-pointer overflow-visible rounded-xl border flex flex-col items-center gap-4",
+        "relative w-80 overflow-visible rounded-xl border flex flex-col items-center gap-4",
         "border-gray-950/[.1] bg-[var(--thirdy)] hover:bg-[var(--thirdy)]/80",
         "dark:border-gray-50/[.1] dark:bg-[var(--thirdy)] dark:hover:bg-[var(--thirdy)]/80"
       )}
@@ -63,7 +63,7 @@ const RecipeCard = ({
 export function StarRecipe() {
   return (
     <div className="relative flex w-full flex-col items-center justify-center overflow-visible">
-      <Marquee reverse pauseOnHover className="[--duration:20s]">
+      <Marquee reverse className="[--duration:20s]">
         {recipes.map((recipe) => (
           <RecipeCard key={recipe.id} {...recipe} />
         ))}
