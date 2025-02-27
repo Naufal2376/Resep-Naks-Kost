@@ -4,7 +4,8 @@
 
 :root {
   --primary: #D98A01; /* Orange */
-  --secondary: #f0ebe1; /* Slate Gray */
+  --secondary: #f0EBE1; /* Slate Gray */
+  --thirdy: #FFFBF2;
   --success: #22c55e; /* Green */
   --warning: #facc15; /* Yellow */
   --error: #ef4444; /* Red */
@@ -13,11 +14,16 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --primary: #D98A01;
-    --secondary: #94a3b8; /* Lighter Slate Gray */
+    --secondary: #f0EBE1; /* Lighter Slate Gray */
+    --thirdy: #FFFBF2;
     --success: #16a34a; /* Darker Green */
     --warning: #eab308; /* Darker Yellow */
     --error: #dc2626; /* Darker Red */
   }
+}
+
+html {
+  overflow-x: hidden;
 }
 
 body {
@@ -30,6 +36,10 @@ body {
 
 .montserrat {
   font-family: var(--font-montserrat), sans-serif;
+}
+
+.roboto {
+  font-family: var(--font-roboto), sans-serif;
 }
 
 
