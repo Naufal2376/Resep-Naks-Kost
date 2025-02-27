@@ -1,6 +1,9 @@
 export default function Explore() {
   return (
-    <section className="container px-6 py-16 mt-10 bg-[var(--thirdy)] border border-gray-200 rounded-xl shadow-md max-w-6xl mx-auto text-left">
+    <section
+      id="explore"
+      className="container px-6 py-16 mt-10 bg-[var(--thirdy)] border border-gray-200 rounded-xl shadow-md max-w-6xl mx-auto text-left"
+    >
       <span className="text-xs font-semibold bg-red-400 text-white px-3 py-1 rounded-full">
         EXPLORE
       </span>

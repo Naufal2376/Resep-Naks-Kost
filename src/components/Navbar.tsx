@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed w-full top-0 z-50">
       <div className="container mx-auto px-6 py-4 flex justify-between items-center">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-2">
+        <Link href="#home" className="flex items-center space-x-2">
           <Image src="/asset/logo.png" alt="Logo" width={50} height={50} />
           <span className="text-2xl font-semibold text-primary">
             <span className="text-[var(--primary)]">Resep</span> N
@@ -22,23 +22,23 @@ export default function Navbar() {
 
         {/* Menu Navigasi */}
         <div className="hidden md:flex items-center space-x-6">
-          <Link href="/" className="text-black hover:text-[var(--primary)]">
+          <Link href="#home" className="text-black hover:text-[var(--primary)]">
             Home
           </Link>
           <Link
-            href="/about"
+            href="#about"
             className="text-black hover:text-[var(--primary)]"
           >
             About
           </Link>
           <Link
-            href="/recipes"
+            href="#recipes"
             className="text-black hover:text-[var(--primary)]"
           >
             Recipes
           </Link>
           <Link
-            href="/contact"
+            href="#footer"
             className="text-black hover:text-[var(--primary)]"
           >
             Contact

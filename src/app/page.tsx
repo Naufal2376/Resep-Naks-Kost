@@ -10,7 +10,7 @@ import About from "@/components/About"
 export default function Home() {
   return (
     <>
-      <main className="flex min-h-screen flex-col">
+      <main id="home" className="flex min-h-screen flex-col">
         <Navbar />
         <Hero />
         <Explore />

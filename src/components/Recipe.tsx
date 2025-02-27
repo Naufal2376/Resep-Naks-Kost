@@ -107,7 +107,7 @@ export default function Recipe() {
       : recipes.filter((recipe) => recipe.category === selectedCategory)
 
   return (
-    <section className="py-10 px-4 max-w-6xl mx-auto text-center">
+    <section id="recipes" className="py-10 px-4 max-w-6xl mx-auto text-center">
       <h2 className="text-4xl font-bold">
         MAU MASAK APA <br /> HARI INI?
       </h2>

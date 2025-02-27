@@ -1,6 +1,9 @@
 export default function About() {
   return (
-    <section className="container mx-auto px-6 mt-10 -mb-5 flex flex-col md:flex-row justify-evenly items-center gap-8">
+    <section
+      id="about"
+      className="container mx-auto px-6 mt-10 -mb-5 flex flex-col md:flex-row justify-evenly items-center gap-8"
+    >
       {/* Teks About */}
       <div className="bg-[var(--thirdy)] border border-gray-200 rounded-lg p-6 max-w-2xl shadow-md">
         <span className="bg-red-400 text-white text-xs font-bold px-3 py-1 rounded-full uppercase">
