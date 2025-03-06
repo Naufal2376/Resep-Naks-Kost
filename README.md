@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🍽️ Resep Naks Kost
 
-## Getting Started
+**Resep Naks Kost** adalah aplikasi web yang menyediakan berbagai resep makanan sederhana dan praktis, cocok untuk anak kos yang ingin memasak dengan mudah! Dibangun menggunakan **Next.js**, **TypeScript**, dan **Tailwind CSS** untuk tampilan yang responsif dan modern.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## ✨ Fitur Utama
+
+✅ **Tampilan Halaman Utama** - Menampilkan daftar resep unggulan dengan UI yang menarik.  
+✅ **Eksplor Resep** - Jelajahi berbagai resep dengan kategori yang beragam.  
+✅ **Detail Resep** - Lihat bahan-bahan dan langkah-langkah memasak secara lengkap.  
+✅ **Squad Developer** - Kenali tim yang mengembangkan aplikasi ini.  
+
+---
+
+## 📂 Struktur Folder
+
+```
+📦 Resep-Naks-Kost-main
+├── 📜 .gitignore
+├── 📜 README.md
+├── 📜 components.json
+├── 📜 next.config.ts
+├── 📜 package-lock.json
+├── 📜 package.json
+├── 📜 postcss.config.mjs
+├── 📜 tailwind.config.ts
+├── 📜 tsconfig.json
+├── 📂 public
+│   ├── 🖼️ berbagai aset gambar & ikon
+├── 📂 src
+│   ├── 📂 app
+│   │   ├── 🎨 globals.css (Gaya utama)
+│   │   ├── 📄 layout.tsx (Tata letak utama)
+│   │   ├── 🏠 page.tsx (Halaman utama)
+│   ├── 📂 components
+│   │   ├── 🔹 About.tsx (Tentang aplikasi)
+│   │   ├── 🔹 Explore.tsx (Eksplorasi resep)
+│   │   ├── 🔹 Footer.tsx (Bagian footer)
+│   │   ├── 🔹 Hero.tsx (Bagian header utama)
+│   │   ├── 🔹 Navbar.tsx (Navigasi utama)
+│   │   ├── 🔹 Recipe.tsx (Kartu resep)
+│   │   ├── 🔹 Squad.tsx (Tampilan squad developer)
+│   │   ├── 🔹 StarRecipe.tsx (Resep favorit)
+│   │   ├── 📂 magicui
+│   │   │   ├── 🎠 marquee.tsx (Efek marquee)
+│   │   ├── 📂 ui
+│   │   │   ├── 🖋️ input.tsx (Komponen input UI)
+│   ├── 📂 lib
+│   │   ├── 🛠️ utils.ts (Helper functions)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 Navigasi Aplikasi
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+🔹 **Halaman Utama (`/`)** - Tampilan awal dengan hero section dan daftar resep unggulan.  
+🔹 **Eksplor (`/explore`)** - Menampilkan daftar resep yang bisa dicoba.  
+🔹 **Detail Resep (`/recipe/[id]`)** - Informasi lengkap tentang resep yang dipilih.  
+🔹 **Squad (`/squad`)** - Mengenal lebih dekat tim developer.  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ Cara Menjalankan Proyek
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1️⃣ **Clone repository**:
+   ```bash
+   git clone https://github.com/Naufal2376/Resep-Naks-Kost
+   cd Resep-Naks-Kost
+   ```
+2️⃣ **Install dependencies**:
+   ```bash
+   npm install
+   ```
+3️⃣ **Jalankan proyek**:
+   ```bash
+   npm run dev
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🚀 Proyek akan berjalan di `http://localhost:3000/`.
